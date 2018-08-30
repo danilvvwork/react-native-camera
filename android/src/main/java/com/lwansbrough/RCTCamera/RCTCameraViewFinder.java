@@ -516,7 +516,7 @@ class RCTCameraViewFinder extends TextureView implements TextureView.SurfaceText
                     @Override
                     public void onAutoFocus(boolean success, Camera camera) {
                         if (success) {
-                            camera.cancelAutoFocus();
+                            // camera.cancelAutoFocus();
                         }
                     }
                 });
